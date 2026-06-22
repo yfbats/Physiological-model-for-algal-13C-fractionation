@@ -19,7 +19,7 @@ lapply(packages, require, character.only = TRUE)
 co2_vec=rep(seq(1,40,by=1),3)
 PFD_vec=rep(c(50,100,150),each=40)
 
-yourdata = data.frame(co2_vec,                                        #μM
+yourdata = data.frame(co2_vec,                                        #μmol/kg
                     PFD_vec,                                          #μE/m2/s
                     
                     pH=rep(8,length(co2_vec*PFD_vec)),

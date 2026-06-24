@@ -16,7 +16,7 @@ The model describes carbon transfer and isotope fractionation across four intrac
 3. Thylakoid
 4. Pyrenoid
 
-For haptophytes such as Emiliania huxleyi, calcification is treated as an additional process associated with the model framework rather than as a separate compartment.
+For haptophytes such as Gephyrocapsa (Emiliania huxleyi), calcification is treated as an additional process associated with the model framework rather than as a separate compartment.
 
 ## Repository files
 
@@ -45,7 +45,7 @@ The scripts require the following R packages:
 - `ggplot2`
 - `dplyr`
 
-In addition, the ODE solver file `grind.R` is required. It should be placed in the working directory used to run the scripts.
+In addition, the ODE solver file `grind.R` (De Boer, 2024) (https://bioinformatics.bio.uu.nl/rdb/grind.html) is required. It should be placed in the working directory used to run the scripts.
 
 ## Working directory setup
 
